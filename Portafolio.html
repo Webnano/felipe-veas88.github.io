@@ -12,26 +12,39 @@
 <main>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link" href="Portafolio.html">Portafolio</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./asset/img/proyectos.png" width="200PX" "img-fluid" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portafolio.html">Portafolio</a>
+            </li>
+           
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     </header>
     <h2>Mi Portafolio</h2>
 
     <body>
-        <section class="portafolio container">
+        <section class="portafolio container m-5 p-5">
             <div class="card" style="width: 35rem;">
                 <img src="asset/img/curriculum.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -60,8 +73,15 @@
             </div>
         </section>
     </body>
-    <footer>
-        <p>©Todos los derechos reservados. Felipe Veas Oyarzún 2024.</p>
-    </footer>
+    <footer class="bg-dark text-center text-light p-4">
+      <figure>
+     <blockquote class="blockquote">
+    <p>Felipe Veas Oyarzún </p>
+     </blockquote>
+     <figcaption class="blockquote-footer">
+     ©Todos los derechos reservados  <cite title="Source Title">2024.A</cite>
+     </figcaption>
+    </figure>
+  </footer>
 
 </html>
