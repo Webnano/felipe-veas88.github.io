@@ -1,0 +1,45 @@
+body {
+  background-image: url(asset/img/fonde.jpg);
+}
+
+.container,
+.insignia {
+  display: flex;
+  justify-content: center;
+}
+
+.insignia {
+  width: 25%;
+}
+
+.educacion {
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  text-size-adjust: 14px;
+  background-color: grey;
+  padding: 1em;
+}
+
+.nombre-institucion,
+.duracion-carrera {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 4em;
+}
+
+.card-title,
+.card-body {
+  text-align: center;
+}
